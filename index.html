@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanessa Machado</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section id="header"> 
+    <a class="header-title" href="/">
+      <h1>
+        VANESSA MACHADO
+      </h1>
+    </a>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+     <nav class="navbar">
+
+    <ul>
+      <li><a href="#inicio">Início</a></li>  
+      <li><a href="#participacoes">Participações</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#videos">Vídeos</a></li>
+      <li><a href="#shows">Shows</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+
+</section>
+
+
+  <section id="inicio">
+    <div class="inicio-background">
+      <div class="wrapper-profile-photo">
+        <img class="profile-photo" src="" alt="">
+      </div>
+
+    </div>
+     
+      
+     
+    
+    
+    
+    
+  </section>
+
+  <section id="historia">
+    <div class="historia-background">
+      <div class="wrapper-profile-photo">
+        <img class="profile-photo" src="" alt="">
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <section id="participacoes">
+
+    <div class="participacoes-background">
+      <div class="wrapper-profile-photo">
+        <img class="profile-photo" src="" alt="">
+      </div>
+
+    </div>
+     
+  </section>
+
+  <section id="status">
+    <div class="status-background">
+      <div class="wrapper-profile-photo">
+        <img class="profile-photo" src="" alt="">
+      </div>
+
+    </div> 
+
+
+
+  </section>
+
+  <section id="projetos">
+    <div class="projetos-background">
+      <div class="wrapper-profile-photo">
+        <img class="profile-photo" src="" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="galeria">
+    <div class="galeria-background">
+      <div class="wrapper-profile-photo">
+        <img class="profile-photo" src="" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="videos">
+    <div class="videos-background">
+      <div class="wrapper-profile-photo">
+        <img class="profile-photo" src="" alt="">
+      </div>
+
+    </div>
+  </section>
+
+  <section id="shows">
+    <div class="shows-background">
+      <div class="wrapper-profile-photo">
+        <img class="profile-photo" src="" alt="">
+      </div>
+
+    </div>
+<!--
+    <form id="agendamento-shows">
+      <label for="nome">Seu Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="data">Data do Show:</label>
+      <input type="date" id="data" name="data" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  -->
+
+  <div class="schedule-section">
+    <div class="schedule-button" onclick="openScheduleForm(1)">Agendar Show 1</div>
+    <div class="schedule-button" onclick="openScheduleForm(2)">Agendar Show 2</div>
+    <div class="schedule-button" onclick="openScheduleForm(3)">Agendar Show 3</div>
+    <div class="schedule-button" onclick="openScheduleForm(4)">Agendar Show 4</div>
+  </div>
+  
+  <!-- Formulário oculto -->
+  <div id="scheduleForm" class="schedule-form" style="display: none;">
+    <h2>Agendar Show</h2>
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="date">Data:</label>
+      <input type="date" id="date" name="date" required>
+      <button type="submit">Enviar</button>
+    </form>
+    <button onclick="closeScheduleForm()">Fechar</button>
+  </div>
+  
+  </section>
+
+  <section id="contacts">
+
+    <div class="contact-icon-content">
+      <h2>Entre em Contato</h2>
+    </div>
+    <div class="contact-icons-wrapper">
+      <div class="contact-icon-content">
+        <div class="contact-icon">
+          <i class="fa-solid fa-envelope-open-text"></i>
+
+        </div>
+        <div class="contact-info">
+          <span>E-mail</span>
+          <p>Emviar e-mail</p>
+          <a href="mailto:vanessa.machado@example.com" class="contact-email">
+
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="contact-icon-wrapper">
+        <div class="contact-icon-content">
+          <div class="contact-icon">
+            <i class="fa-brands fa-whatsapp"></i>
+  
+          </div>
+          <div class="contact-info">
+            <span>whatsapp</span>
+            <p>  Falar no WhatsApp</p>
+            <a href="https://wa.me/5511999999999" class="contact-whatsapp" target="_blank">
+
+            </a>
+  
+          </div>
+  
+        </div>
+
+    </div>
+
+  </section>
+  
+
+<section id="footer">
+  <div class="container-footer">
+    <h2>VANESSA MACHADO &copy</h2>
+
+  </div>
+
+</section>
+
+  <script src="js/main.js"></script>
+
+  <script>
+
+  </script>
+  
+</body>
+</html>

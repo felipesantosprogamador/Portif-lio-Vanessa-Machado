@@ -1,0 +1,390 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+
+}
+
+:root {
+    --color-white: #fff;
+    --color-pink: #d12f7a;
+    --color-blue: #073fcc;
+    --color-black: #0c0c0c;
+    --color-puple: #5f01ac;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+body  {
+    font-family:'Times New Roman', Times, serif ;
+
+}
+
+/*#header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 15px 30px;
+    position: fixed;
+
+    z-index: 2;
+}
+
+/* Header básico */
+/* Header básico */
+/* Header básico */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #ecf0f1;
+    position: relative; /* Define um contexto para posicionamento */
+  }
+  
+  /* Título do header */
+  .header-title {
+    margin-left: auto; /* Move o elemento para a direita */
+    text-decoration: none; /* Remove o sublinhado */
+    color: #ecf0f1; /* Cor do texto */
+  }
+  
+  .header-title h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Menu hambúrguer - Posicionado à esquerda */
+  .hamburger {
+    display: none; /* Esconde no desktop */
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  
+    /* Posicionamento fixo no canto esquerdo */
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+  }
+  
+  .hamburger span {
+    width: 30px;
+    height: 3px;
+    background-color: #ecf0f1;
+    transition: 0.3s;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  
+    position: absolute;
+    top: 60px; /* Distância do topo */
+    left: 20px; /* Alinhado à esquerda */
+    background-color: #010911f3;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 999;
+  }
+  
+  .navbar.active {
+    display: flex; /* Mostra o menu */
+  }
+  
+  /* Links do menu */
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #e1dede;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 3000px) {
+    .hamburger {
+      display: flex; /* Mostra o botão hambúrguer no mobile */
+    }
+  }
+  
+
+#inicio {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    
+
+    background-image: url(../img/1_upscayl_4x_realesrgan-x4plus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#historia {
+
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    
+
+    background-image: url(../img/2_upscayl_4x_realesrgan-x4plus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+#participacoes {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    background-image: url(../img/3_upscayl_4x_realesrgan-x4plus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#status {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    background-image: url(../img/4_upscayl_4x_realesrgan-x4plus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+
+#projetos {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    background-image:url(../img/5_upscayl_4x_realesrgan-x4plus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#galeria {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    background-image: url(../img/6_upscayl_4x_realesrgan-x4plus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#videos {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    background-image: url(../img/7_upscayl_4x_realesrgan-x4plus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#shows {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    background-image: url(../img/8_upscayl_4x_realesrgan-x4plus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.shows-schedule-section {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    float: left;
+    position: absolute;
+    width: 31vw;
+    right: 5vw;
+    top: 120px;
+    color: #fff;
+    z-index: 999;
+    color: var(--formulario-CorDeTexto);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .shows-schedule-button {
+    background-color: rgb(255, 145, 0);
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .shows-schedule-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilo da seção de contatos */
+#contacts {
+    display: flex;
+    flex-direction: column;
+
+    height: 10vh;
+    width: 100%;
+
+    background: var(--color-white);
+
+
+  }
+  
+  .contacts-icon-content h2 {
+    margin: 3rem;
+    padding: 1rem;
+
+    font-size: 3rem;
+    color: var(--color-white);
+ 
+  }
+  
+  
+  .contact-icons-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  
+  .contact-icon-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 0rem 3rem;
+    padding: 1rem;
+
+  }
+  
+  .contact-icon {
+    height: 40px;
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 7rem;
+
+    background: var(--color-white);
+    padding: 1rem;
+    border-radius: 50%;
+  }
+
+  .contact-icon i {
+    font-size: 2rem;
+    color: var(--color-white);
+  }
+
+  .contact-info span {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+  }
+
+  .contact-info p {
+    margin: .25rem 0rem;
+  }
+
+  .contact-info a {
+    margin: .25rem 0rem;
+
+    text-decoration: none;
+    color: var(--color-black);
+  }
+
+  
+
+  
+
+  
+  #footer {
+    height: 15vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: auto;
+
+    background: #191919;
+
+  
+  }
+  
+  .container-footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   flex-direction: column;
+
+   color: var(--color-white);
+
+
+      
+    }
+  
+
+
+
+
